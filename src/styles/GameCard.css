@@ -1,0 +1,6 @@
+.GameCard {
+    width: 192px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
