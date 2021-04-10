@@ -7,10 +7,10 @@ export const isWinner = (selectedCells) => {
 export const checkWinner = (playerCells, botCells) => {
 
     if(isWinner(playerCells)) {
-        console.log('PLAYER WINS')
+        alert('PLAYER WINS')
         return true;
     } else if (isWinner(botCells)){
-        console.log('BOT WINS')
+        alert('BOT WINS')
         return true;
     } else {
         return false;

@@ -4,7 +4,7 @@ import '../styles/Cell.css'
 
 
 export const Cell = ({msn, selectCell, gameover}) => {
-    const [cellStatus, setCellStatus] = useState('AVAILABLE'); //perhaps can have some config which can be set that allows players to select color for cells and use that to color cells
+    const [cellStatus, setCellStatus] = useState('AVAILABLE'); 
     const [bgcolor, setBgcolor] = useState('chocolate')
 
     useEffect(()=>{  
