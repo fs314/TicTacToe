@@ -1,3 +1,5 @@
+This is a very simple project I did to learn React. To calculate the winner it uses a 3x3 magic square algorithm. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
